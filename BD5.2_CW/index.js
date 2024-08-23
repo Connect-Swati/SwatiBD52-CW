@@ -5,7 +5,6 @@ let port = 3000;
 let track = require("./models/track.model");
 
 let { sequelize } = require("./lib/index");
-const { where } = require("sequelize");
 
 app.listen(port, () => {
   console.log("Server is running on port " + port);
